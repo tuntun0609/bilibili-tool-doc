@@ -85,12 +85,38 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/intro',
+                to: '/docs/install/from-releases',
+              },
+            ],
+          },
+          {
+            title: 'Github',
+            items: [
+              {
+                label: 'bilibili-tool',
+                to: 'https://github.com/tuntun0609/bilibil-tool-mv3',
+              },
+              {
+                label: 'bilibili-tool-document',
+                to: 'https://github.com/tuntun0609/bilibili-tool-document',
+              },
+            ],
+          },
+          {
+            title: 'Author',
+            items: [
+              {
+                label: 'github',
+                to: 'https://github.com/tuntun0609',
+              },
+              {
+                label: 'bilibili',
+                to: 'https://space.bilibili.com/47706697',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

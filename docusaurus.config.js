@@ -8,17 +8,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'bilibili tool document',
   tagline: 'Dinosaurs are cool',
-  url: 'https://bilibili-tool-document.vercel.app/',
+  url: 'https://bilibili-tool-document.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'tuntun0609', // Usually your GitHub org/user name.
   projectName: 'bilibili-tool-website', // Usually your repo name.
 
+  trailingSlash: undefined,
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -60,7 +60,7 @@ const config = {
         title: 'bilibili tool document',
         logo: {
           alt: 'bilibili tool document',
-          src: 'img/logo.svg',
+          src: 'img/logo.png',
         },
         items: [
           {

@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'bilibili tool document',
   tagline: 'Dinosaurs are cool',
-  url: 'https://bilibili-tool-document.vercel.app',
+  url: 'https://bilibili-tool-doc.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',

@@ -8,20 +8,14 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'bilibili tool document',
   tagline: 'Dinosaurs are cool',
-  url: 'https://bilibili-tool-doc.vercel.app',
+  url: 'https://bili-tool-doc.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'tuntun0609', // Usually your GitHub org/user name.
-  projectName: 'bilibili-tool-website', // Usually your repo name.
-
+  organizationName: 'tuntun0609',
+  projectName: 'bilibili-tool-doc',
   trailingSlash: undefined,
-  // Even if you don't use internalization, you can use this field to set useful
-  // metadata like html lang. For example, if your site is Chinese, you may want
-  // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: 'zh-Hans',
     locales: ['zh-Hans'],
@@ -36,7 +30,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // routeBasePath: '/',
           editUrl:
-            'https://github.com/tuntun0609/bilibili-tool-document',
+            'https://github.com/tuntun0609/bilibili-tool-doc/tree/master',
         },
         blog: false,
         // {
@@ -97,8 +91,8 @@ const config = {
                 to: 'https://github.com/tuntun0609/bilibil-tool-mv3',
               },
               {
-                label: 'bilibili-tool-document',
-                to: 'https://github.com/tuntun0609/bilibili-tool-document',
+                label: 'bilibili-tool-doc',
+                to: 'https://github.com/tuntun0609/bilibili-tool-doc',
               },
             ],
           },

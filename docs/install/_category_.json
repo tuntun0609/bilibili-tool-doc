@@ -1,6 +1,8 @@
 {
   "label": "安装",
-  "position": 1,
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
   "link": {
     "type": "generated-index"
   }

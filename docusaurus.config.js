@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'bilibili tool document',
+  title: 'tun-bili-tool document',
   tagline: 'Dinosaurs are cool',
-  url: 'https://bili-tool-doc.vercel.app',
+  url: 'https://tun-bili-tool-doc.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -30,7 +30,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // routeBasePath: '/',
           editUrl:
-            'https://github.com/tuntun0609/bilibili-tool-doc/tree/master',
+            'https://github.com/tuntun0609/tun-bili-tool/tree/master',
         },
         blog: false,
         // {
@@ -51,15 +51,15 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'bilibili tool document',
+        title: 'tun bili tool document',
         logo: {
-          alt: 'bilibili tool document',
+          alt: 'tun bili tool document',
           src: 'img/logo.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'install/from-releases',
+            docId: 'readme',
             position: 'right',
             label: '文档',
           },
@@ -79,7 +79,7 @@ const config = {
             items: [
               {
                 label: 'Docs',
-                to: '/docs/install/from-releases',
+                to: '/docs',
               },
             ],
           },
@@ -87,12 +87,12 @@ const config = {
             title: 'Github',
             items: [
               {
-                label: 'bilibili-tool',
-                to: 'https://github.com/tuntun0609/bilibil-tool-mv3',
+                label: 'tun-bili-tool',
+                to: 'https://github.com/tuntun0609/tun-bili-tool',
               },
               {
-                label: 'bilibili-tool-doc',
-                to: 'https://github.com/tuntun0609/bilibili-tool-doc',
+                label: 'tun-bili-tool-doc',
+                to: 'https://github.com/tuntun0609/tun-bili-tool-doc',
               },
             ],
           },
